@@ -1,10 +1,40 @@
 # Amity University Kolkata — Communication Skills-I (BC109) Master Portal (Expanded Edition)
 
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fmhjnvjvnjjkkgk%2Famity-bc109-communication)
+[![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/mhjnvjvnjjkkgk/amity-bc109-communication)
+
 Welcome to the **BC109 Communication Skills-I Master Learning & Examination Portal**, built specifically according to the official undergraduate syllabus of **Amity University Kolkata**.
 
 ---
 
-## 🚀 How to Launch the Portal
+## 🚀 Live Hosting on Vercel
+
+### Option 1: 1-Click Instant Vercel Deployment
+Click the button above or use the following direct deployment link:
+👉 **[Deploy to Vercel Instantly](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fmhjnvjvnjjkkgk%2Famity-bc109-communication)**
+
+### Option 2: CLI Deployment
+Authorize the Vercel device link:
+👉 **https://vercel.com/oauth/device?user_code=FNJX-XJWX**
+Then run:
+```powershell
+vercel deploy --prod
+```
+
+---
+
+## 📱 100% Mobile Optimized Experience
+
+The application is engineered from the ground up for high-performance mobile browsing:
+- **Persistent Bottom Navigation Bar:** Quick thumb-accessible access to Modules, Models, Global Search, Flashcards, and Dark/Light Mode.
+- **Touch-Friendly Drawer Navigation:** Smooth off-canvas sidebar with blur backdrop overlay, close button, and auto-dismiss on route selection.
+- **Horizontal Swipable Tab Strips:** Swipe through module tabs (Notes, Question Bank, MCQs) and question filters (2 Marks, 5 Marks, Essays) without page clutter.
+- **iOS Safari Optimization:** 16px search input preventing disruptive browser auto-zooming, dynamic viewport sizing (`viewport-fit=cover`), and notch/home-bar safe-area insets.
+- **Tactile Touch Targets:** All buttons, MCQ options, and accordion headers follow Apple Human Interface Guidelines (44px+ touch targets).
+
+---
+
+## 🚀 How to Launch Locally
 
 ### Option 1: Direct File Launch (No server needed)
 Double-click [`launch_portal.bat`](file:///d:/communication%20project/launch_portal.bat) in this folder, or directly open [`website/index.html`](file:///d:/communication%20project/website/index.html) in any web browser (Google Chrome, Microsoft Edge, Mozilla Firefox, Safari).
