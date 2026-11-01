@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "name": "amity-bc109-communication",
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "rewrites": [
+    { "source": "/", "destination": "/website/index.html" },
+    { "source": "/css/(.*)", "destination": "/website/css/$1" },
+    { "source": "/js/(.*)", "destination": "/website/js/$1" },
+    { "source": "/assets/(.*)", "destination": "/website/assets/$1" },
+    { "source": "/(.*)", "destination": "/website/$1" }
+  ]
+}
